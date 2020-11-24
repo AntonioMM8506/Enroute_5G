@@ -1,0 +1,9 @@
+Each time I attempt to set up my new Droplet I get stuck right here. ssh-copy-id doesn’t work and so I can’t get my new user login to work. I’ve tried some fixes and just gotten more in the weeds. It seems I’m not the only one with this problem but there are different fixes so I’m just going to copy what I’m getting here. I’ve also tried to copy the key manually like it’s mentioned in this tutorial but still no dice… Please help!
+
+ssh-copy-id USERNAME@IP-ADDRESS
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: “/Users/USERNAME/.ssh/id_rsa.pub”
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed – if you are prompted now it is to install the new keys
+Permission denied (publickey).
+
+Thanks for any help!
